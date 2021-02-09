@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+::placeholder {
+    color: #BBBBBB;
+}
+
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(#000069, #6767FF);
+    background-size: cover;
+    position: absolute;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#temp {
+    text-align: center;
+}
+
+#temp #temp-value,
+#temp #temp-unit {
+    font-size: 1.9rem;
+    color: #ffffff;
+}
+
+#climate {
+    font-size: 2.3rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+#location {
+    font-size: 2.3rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+}
+
+#temp-icon {
+    margin: 1rem;
+    width: 150px;
+    height: auto;
+}
+
+#app-container {
+    padding: 20px;
+    margin: 20px;
+    background-color: #DFDFDF55;
+    border-radius: 1rem;
+    width: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px 1px #00000055;
+}
+
+#search-button {
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #2D67A9;
+    border: None;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: 15px;
+    display: inline-block;
+    outline: None;
+    transition: color 0.5s, background 0.5s;
+}
+
+#search-button:hover {
+    color: #ffffff;
+    background: #408CE2;
+}
+
+#search-input {
+    width: 235px;
+    overflow: hidden;
+    font-size: 15px;
+    margin: 10px 0;
+    color: white;
+    outline: none;
+    background: none;
+    background-color: #DFDFDF55;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.fa-search {
+    margin-right: 10px;
+}
+
+input {
+    border: none;
+}

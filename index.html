@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<title>Weather app</title>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="inner">
+            <form id="search-form">
+                <input type="search" placeholder="Enter City Name" id="search-input" required autofocus autocomplete="off">
+                <button value="submit" id="search-button"><i class="fa fa-search"></i>Search</button>
+            </form>
+            <div id="app-container">
+                <p id="location">City</p>
+                <div id="temp">
+                    <img id="temp-icon" src="./aicons/weather.svg">
+                    <p class="temp-p"><span id="temp-value"></span><span id="temp-unit">&nbsp;&#176;C</span> </p>
+                </div>
+                <p id="climate">Climate</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
